@@ -1,13 +1,15 @@
 "use client";
 import React from "react";
 import ViewOne from "./components/ViewOne";
+import ViewTwo from "./components/ViewTwo";
 
-const page = () => {
+const Page = () => {
   return (
-    <div>
+    <div className="relative bg-amber-50">
       <ViewOne />
-      </div>
+      <ViewTwo />
+    </div>
   );
 };
 
-export default page;
+export default Page;
